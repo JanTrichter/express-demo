@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.box > * {
+  margin-bottom: 1em;
+}
+
+.box > input {
+  padding: 0.3em;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+  background-color: rgb(57, 57, 255);
+  color: white;
+  font-weight: bold;
+  width: max-content;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  background-color: rgb(32, 32, 255);
+}
+
+.user-profile {
+  background-color: lightblue;
+  padding: 1em;
+  margin: 1em;
+}
