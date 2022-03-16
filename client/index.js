@@ -9,7 +9,7 @@ const fetchUsers = document.querySelector("#fetch-users");
 button.addEventListener("click", () => {
     let user = {
         name: input.value,
-        admin: role.value == "on" ? true : false
+        admin: role.checked
     }
 
     fetch("http://localhost:3000/createuser", {
